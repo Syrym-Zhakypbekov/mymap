@@ -19,3 +19,4 @@ function test(){
 
 window.onload =  test()
 test()
+console.log('tesasdvasdvt')
