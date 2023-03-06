@@ -7,8 +7,7 @@ fetch('https://airastana.com/nld/en-us/Home/test')
     throw new Error('Network response was not ok.');
   })
   .then(data => 
-document.body.querySelector('div.container-fluid.aa-footer').remove(),
-document.body.querySelector('div.container-fluid.aa-copyright').remove()
+    document.getElementsByClassName('container-fluid aa-footer').item([]).remove()
        
        )
   .catch(error => console.error('Error:', error));
